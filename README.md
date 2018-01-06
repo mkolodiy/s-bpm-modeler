@@ -5,7 +5,7 @@ This is a modeling platform for S-BPM processes. S-BPM processes can be exported
 > This S-BPM modeling platform is based on the S-BPM modeling platform available [here](https://github.com/stefanstaniAIM/IPPR2016).
 
 ## Tutorial Videos ##
-[modelingPlatform](https://youtu.be/3gJXmBRKWNo) (German)
+[German](https://youtu.be/3gJXmBRKWNo)
 
 ## Functionalities ##
 
