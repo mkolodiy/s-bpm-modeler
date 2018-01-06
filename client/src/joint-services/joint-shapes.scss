@@ -1,0 +1,603 @@
+.SubjectElement {
+  background: transparent;
+  pointer-events: none;
+  -webkit-user-select: none;
+  background: #ffffff;
+  border-radius: 6px;
+  border: 3px solid #000000;
+}
+
+.SubjectElement__name {
+  text-align: center;
+  font-size: 1em;
+  width: inherit;
+  white-space: pre-line;
+  text-align: center;
+}
+
+.SubjectElement__remove-btn, .SubjectElement__connector-btn {
+  pointer-events: auto;
+}
+
+.SubjectElement__remove-btn {
+  font-size: 1.5em;
+  color: #000000;
+  border: none;
+  border-radius: 50%;
+  background: #ffffff;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: -10px;
+  padding: 0px;
+  margin: 0;
+  cursor: pointer;
+  visibility: hidden;
+}
+
+.SubjectElement__connector-btn {
+  font-size: 1.5em;
+  color: #000000;
+  border: none;
+  border-radius: 50%;
+  background: #ffffff;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 30px;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  transform: rotate(-45deg);
+  visibility: hidden;
+}
+
+button.SubjectElement__remove-btn:active, button.SubjectElement__remove-btn:focus, button.SubjectElement__connector-btn:active, button.SubjectElement__connector-btn:focus {
+  outline: 0;
+}
+
+button.SubjectElement__remove-btn:hover {
+  transform: scale(1.1);
+}
+
+button.SubjectElement__connector-btn:hover {
+  transform: rotate(-45deg) scale(1.1);
+}
+
+.InterfaceSubjectElement {
+  background: transparent;
+  pointer-events: none;
+  -webkit-user-select: none;
+  background: #ffffff;
+  border-radius: 6px;
+  border: 3px dashed #000000;
+}
+
+.InterfaceSubjectElement__name {
+  text-align: center;
+  font-size: 1em;
+  width: inherit;
+  white-space: pre-line;
+  text-align: center;
+}
+
+.InterfaceSubjectElement__remove-btn, .InterfaceSubjectElement__connector-btn {
+  pointer-events: auto;
+}
+
+.InterfaceSubjectElement__remove-btn {
+  font-size: 1.5em;
+  color: #000000;
+  border: none;
+  border-radius: 50%;
+  background: #ffffff;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: -10px;
+  padding: 0px;
+  margin: 0;
+  cursor: pointer;
+  visibility: hidden;
+}
+
+.InterfaceSubjectElement__connector-btn {
+  font-size: 1.5em;
+  color: #000000;
+  border: none;
+  border-radius: 50%;
+  background: #ffffff;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 30px;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  transform: rotate(-45deg);
+  visibility: hidden;
+}
+
+button.InterfaceSubjectElement__remove-btn:active, button.InterfaceSubjectElement__remove-btn:focus, button.InterfaceSubjectElement__connector-btn:active, button.InterfaceSubjectElement__connector-btn:focus {
+  outline: 0;
+}
+
+button.InterfaceSubjectElement__remove-btn:hover {
+  transform: scale(1.1);
+}
+
+button.InterfaceSubjectElement__connector-btn:hover {
+  transform: rotate(-45deg) scale(1.1);
+}
+
+.MessageExchangeElement {
+  position: absolute;
+  background: transparent;
+  cursor: pointer;
+  pointer-events: none;
+  -webkit-user-select: none;
+  background: #ffffff;
+  border-radius: 6px;
+  border: 3px solid #000000;
+}
+
+.MessageExchangeElement__selector {
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  border: 2px dashed #9B9B9B;
+  visibility: hidden;
+}
+
+.MessageExchangeElement__unidirectional, .MessageExchangeElement__bidirectional {
+  font-size: 2em;
+}
+
+.MessageExchangeElement__remove-btn {
+  font-size: 1.5em;
+  color: #000000;
+  border: none;
+  border-radius: 50%;
+  background: #ffffff;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: -10px;
+  padding: 0px;
+  margin: 0;
+  cursor: pointer;
+  visibility: hidden;
+  pointer-events: auto;
+}
+
+button.MessageExchangeElement__remove-btn:active, button.MessageExchangeElement__remove-btn:focus {
+  outline: 0;
+}
+
+button.MessageExchangeElement__remove-btn:hover {
+  transform: scale(1.1);
+}
+
+.SendStateElement {
+  background: transparent;
+  pointer-events: none;
+  -webkit-user-select: none;
+  background: #ffffff;
+  border-radius: 6px;
+  border: 3px solid #000000;
+}
+
+.SendStateElement__name {
+  text-align: center;
+  font-size: 1em;
+  width: inherit;
+  white-space: pre-line;
+  text-align: center;
+}
+
+.SendStateElement__icon, .SendStateElement__indicator {
+  font-size: 1.5em;
+  width: 50%;
+}
+
+.SendStateElement__icon {
+  font-size: 1.5em;
+  float: left;
+  padding-left: 5px;
+}
+
+.SendStateElement__indicator {
+  font-size: 1.5em;
+  float: left;
+  padding-right: 5px;
+  padding-top: 5px;
+  visibility: hidden;
+
+  i {
+    float: right;
+  }
+}
+
+.SendStateElement__remove-btn, .SendStateElement__connector-btn {
+  pointer-events: auto;
+}
+
+.SendStateElement__remove-btn {
+  font-size: 1.5em;
+  color: #000000;
+  border: none;
+  border-radius: 50%;
+  background: #ffffff;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: -10px;
+  padding: 0px;
+  margin: 0;
+  cursor: pointer;
+  visibility: hidden;
+}
+
+.SendStateElement__connector-btn {
+  font-size: 1.5em;
+  color: #000000;
+  border: none;
+  border-radius: 50%;
+  background: #ffffff;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 30px;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  transform: rotate(-45deg);
+  visibility: hidden;
+}
+
+button.SendStateElement__remove-btn:active, button.SendStateElement__remove-btn:focus, button.SendStateElement__connector-btn:active, button.SendStateElement__connector-btn:focus {
+  outline: 0;
+}
+
+button.SendStateElement__remove-btn:hover {
+  transform: scale(1.1);
+}
+
+button.SendStateElement__connector-btn:hover {
+  transform: rotate(-45deg) scale(1.1);
+}
+
+.ReceiveStateElement {
+  background: transparent;
+  pointer-events: none;
+  -webkit-user-select: none;
+  background: #ffffff;
+  border-radius: 6px;
+  border: 3px solid #000000;
+}
+
+.ReceiveStateElement__name {
+  text-align: center;
+  font-size: 1em;
+  width: inherit;
+  white-space: pre-line;
+  text-align: center;
+}
+
+.ReceiveStateElement__icon, .ReceiveStateElement__indicator {
+  font-size: 1.5em;
+  width: 50%;
+}
+
+.ReceiveStateElement__icon {
+  font-size: 1.5em;
+  float: left;
+  padding-left: 5px;
+}
+
+.ReceiveStateElement__indicator {
+  font-size: 1.5em;
+  float: left;
+  padding-right: 5px;
+  padding-top: 5px;
+  visibility: hidden;
+
+  i {
+    float: right;
+  }
+}
+
+.ReceiveStateElement__remove-btn, .ReceiveStateElement__connector-btn {
+  pointer-events: auto;
+}
+
+.ReceiveStateElement__remove-btn {
+  font-size: 1.5em;
+  color: #000000;
+  border: none;
+  border-radius: 50%;
+  background: #ffffff;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: -10px;
+  padding: 0px;
+  margin: 0;
+  cursor: pointer;
+  visibility: hidden;
+}
+
+.ReceiveStateElement__connector-btn {
+  font-size: 1.5em;
+  color: #000000;
+  border: none;
+  border-radius: 50%;
+  background: #ffffff;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 30px;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  transform: rotate(-45deg);
+  visibility: hidden;
+}
+
+button.ReceiveStateElement__remove-btn:active, button.ReceiveStateElement__remove-btn:focus, button.ReceiveStateElement__connector-btn:active, button.ReceiveStateElement__connector-btn:focus {
+  outline: 0;
+}
+
+button.ReceiveStateElement__remove-btn:hover {
+  transform: scale(1.1);
+}
+
+button.ReceiveStateElement__connector-btn:hover {
+  transform: rotate(-45deg) scale(1.1);
+}
+
+.FunctionStateElement {
+  background: transparent;
+  pointer-events: none;
+  -webkit-user-select: none;
+  background: #ffffff;
+  border-radius: 6px;
+  border: 3px solid #000000;
+}
+
+.FunctionStateElement__name {
+  text-align: center;
+  font-size: 1em;
+  width: inherit;
+  white-space: pre-line;
+  text-align: center;
+}
+
+.FunctionStateElement__icon, .FunctionStateElement__indicator {
+  font-size: 1.5em;
+  width: 50%;
+}
+
+.FunctionStateElement__icon {
+  font-size: 1.5em;
+  float: left;
+  padding-left: 5px;
+}
+
+.FunctionStateElement__indicator {
+  font-size: 1.5em;
+  float: left;
+  padding-right: 5px;
+  padding-top: 5px;
+  visibility: hidden;
+
+  i {
+    float: right;
+  }
+}
+
+.FunctionStateElement__remove-btn, .FunctionStateElement__connector-btn {
+  pointer-events: auto;
+}
+
+.FunctionStateElement__remove-btn {
+  font-size: 1.5em;
+  color: #000000;
+  border: none;
+  border-radius: 50%;
+  background: #ffffff;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: -10px;
+  padding: 0px;
+  margin: 0;
+  cursor: pointer;
+  visibility: hidden;
+}
+
+.FunctionStateElement__connector-btn {
+  font-size: 1.5em;
+  color: #000000;
+  border: none;
+  border-radius: 50%;
+  background: #ffffff;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 30px;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  transform: rotate(-45deg);
+  visibility: hidden;
+}
+
+button.FunctionStateElement__remove-btn:active, button.FunctionStateElement__remove-btn:focus, button.FunctionStateElement__connector-btn:active, button.FunctionStateElement__connector-btn:focus {
+  outline: 0;
+}
+
+button.FunctionStateElement__remove-btn:hover {
+  transform: scale(1.1);
+}
+
+button.FunctionStateElement__connector-btn:hover {
+  transform: rotate(-45deg) scale(1.1);
+}
+
+.SendTransitionElement {
+  position: absolute;
+  background: transparent;
+  cursor: pointer;
+  pointer-events: none;
+  -webkit-user-select: none;
+  background: #ffffff;
+  border-radius: 6px;
+  border: 3px solid #000000;
+}
+
+.SendTransitionElement__subject {
+  height: 50%;
+  text-align: center;
+}
+
+.SendTransitionElement__message {
+  height: 50%;
+  text-align: center;
+}
+
+.SendTransitionElement__selector {
+  position: absolute;
+  left: -10px;
+  top: -10px;
+  border: 2px dashed #9B9B9B;
+  visibility: hidden;
+}
+
+.SendTransitionElement__remove-btn {
+  font-size: 1.5em;
+  color: #000000;
+  border: none;
+  border-radius: 50%;
+  background: #ffffff;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: -10px;
+  padding: 0px;
+  margin: 0;
+  cursor: pointer;
+  visibility: hidden;
+  pointer-events: auto;
+}
+
+button.SendTransitionElement__remove-btn:active, button.SendTransitionElement__remove-btn:focus {
+  outline: 0;
+}
+
+button.SendTransitionElement__remove-btn:hover {
+  transform: scale(1.1);
+}
+
+.ReceiveTransitionElement {
+  position: absolute;
+  background: transparent;
+  cursor: pointer;
+  pointer-events: none;
+  -webkit-user-select: none;
+  background: #ffffff;
+  border-radius: 6px;
+  border: 3px solid #000000;
+}
+
+.ReceiveTransitionElement__subject {
+  height: 50%;
+  text-align: center;
+}
+
+.ReceiveTransitionElement__message {
+  height: 50%;
+  text-align: center;
+}
+
+.ReceiveTransitionElement__selector {
+  position: absolute;
+  left: -10px;
+  top: -10px;
+  border: 2px dashed #9B9B9B;
+  visibility: hidden;
+}
+
+.ReceiveTransitionElement__remove-btn {
+  font-size: 1.5em;
+  color: #000000;
+  border: none;
+  border-radius: 50%;
+  background: #ffffff;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: -10px;
+  padding: 0px;
+  margin: 0;
+  cursor: pointer;
+  visibility: hidden;
+  pointer-events: auto;
+}
+
+button.ReceiveTransitionElement__remove-btn:active, button.ReceiveTransitionElement__remove-btn:focus {
+  outline: 0;
+}
+
+button.ReceiveTransitionElement__remove-btn:hover {
+  transform: scale(1.1);
+}
+
+.FunctionTransitionElement {
+  position: absolute;
+  background: transparent;
+  cursor: pointer;
+  pointer-events: none;
+  -webkit-user-select: none;
+  background: #ffffff;
+  border-radius: 6px;
+  border: 3px solid #000000;
+}
+
+.FunctionTransitionElement__name {
+  padding-top: 15%;
+  text-align: center;
+}
+
+.FunctionTransitionElement__selector {
+  position: absolute;
+  left: -10px;
+  top: -10px;
+  border: 2px dashed #9B9B9B;
+  visibility: hidden;
+}
+
+.FunctionTransitionElement__remove-btn {
+  font-size: 1.5em;
+  color: #000000;
+  border: none;
+  border-radius: 50%;
+  background: #ffffff;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: -10px;
+  padding: 0px;
+  margin: 0;
+  cursor: pointer;
+  visibility: hidden;
+  pointer-events: auto;
+}
+
+button.FunctionTransitionElement__remove-btn:active, button.FunctionTransitionElement__remove-btn:focus {
+  outline: 0;
+}
+
+button.FunctionTransitionElement__remove-btn:hover {
+  transform: scale(1.1);
+}
