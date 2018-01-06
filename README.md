@@ -1,4 +1,4 @@
-# S-BPM modeling Platform #
+# S-BPM Modeling Platform #
 
 This is a modeling platform for S-BPM processes. S-BPM processes can be exported and imported as OWL 2 files. The modeling platform consists out of two parts: Frontend and Backend. The frontend is built with VueJS and JointJS. The backend is built with FeathersJS and MongoDB.
 
