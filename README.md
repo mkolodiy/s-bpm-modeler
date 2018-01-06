@@ -62,6 +62,7 @@ The following table shows which S-BPM elements had been implemented and can be m
 
  1. Start mongoDB server
  2. Go to ```server``` and run ```npm start```
+ 3. The application is accessible under ```http://localhost:8080/```
 
 ## License
 
