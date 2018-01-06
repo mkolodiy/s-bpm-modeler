@@ -1,15 +1,15 @@
-# S-BPM Modelling Platform #
+# S-BPM modeling Platform #
 
-This is a modelling platform for S-BPM processes. S-BPM processes can be exported and imported as OWL 2 files. The modelling platform consists out of two parts: Frontend and Backend. The frontend is build with VueJS and JointJS. The backend is build with FeathersJS and MongoDB.
+This is a modeling platform for S-BPM processes. S-BPM processes can be exported and imported as OWL 2 files. The modeling platform consists out of two parts: Frontend and Backend. The frontend is built with VueJS and JointJS. The backend is built with FeathersJS and MongoDB.
 
-> This S-BPM modelling platform is based on the S-BPM modelling platform available [here](https://github.com/stefanstaniAIM/IPPR2016).
+> This S-BPM modeling platform is based on the S-BPM modeling platform available [here](https://github.com/stefanstaniAIM/IPPR2016).
 
 ## Tutorial Videos ##
-[ModellingPlatform](https://youtu.be/3gJXmBRKWNo) (German)
+[modelingPlatform](https://youtu.be/3gJXmBRKWNo) (German)
 
 ## Functionalities ##
 
-The following table shows which S-BPM elements had been implemented and can be modeled in the S-BPM modelling platform.
+The following table shows which S-BPM elements had been implemented and can be modeled in the S-BPM modeling platform.
 
 | S-BPM elements | Implemented | Comment |
 | ------------ | ------------ | ------- |
