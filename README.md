@@ -5,7 +5,7 @@ This is a modeling platform for S-BPM processes. S-BPM processes can be exported
 > This S-BPM modeling platform is based on the S-BPM modeling platform available [here](https://github.com/stefanstaniAIM/IPPR2016).
 
 ## Tutorial Videos ##
-[German](https://youtu.be/3gJXmBRKWNo)
+[German](https://youtu.be/d4Zes7RI4qo)
 
 ## Functionalities ##
 
@@ -57,12 +57,12 @@ The following table shows which S-BPM elements had been implemented and can be m
 **Client:**
 
  1. Go to ```client``` and run ```npm start```
+ 2. The application is accessible under ```http://localhost:8080/```
  
 **Server:**
 
  1. Start mongoDB server
  2. Go to ```server``` and run ```npm start```
- 3. The application is accessible under ```http://localhost:8080/```
 
 ## License
 
