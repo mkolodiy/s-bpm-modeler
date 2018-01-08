@@ -66,6 +66,4 @@ The following table shows which S-BPM elements had been implemented and can be m
 
 ## License
 
-Copyright (c) 2016
-
 Licensed under the [MIT license](LICENSE).
